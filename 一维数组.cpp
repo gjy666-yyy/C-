@@ -61,7 +61,7 @@ int main()
 
 	cout << "数组首地址为:" << (int)arr << endl;
 	cout << "数组中第一个元素的地址：" << (int)&arr[0] << endl;
-
+    cout <<"元素的个数:<< sizeof (arr) / sizeof (arr[o]) << endl;
 	// 数组名是常量，不可以赋值 
 
 
